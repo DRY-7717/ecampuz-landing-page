@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero-section {
+    background-image: url('../img/hero-image.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-box-title {
+    margin-top: 150px;
+}
+
+.hero-title {
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.hero-box-subtitle {
+    width: 730px;
+}
+
+.hero-subtitle {
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.section-fitur {
+    background-image: url('../img/ellipse.png');
+    background-position-y: 120px;
+    background-size: cover;
+    height: 700px;
+}
+
+.row-card-fitur {
+    margin-top: 80px;
+}
+
+.card-fitur {
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.15);
+    width: 500px;
+
+}
+
+.card-fitur ul li {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title-fitur-ecampuz {
+    font-weight: 800;
+
+}
+
+
+.section-klien {
+    background-color: #4E52BB;
+    margin-top: -120px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.title-klien {
+    font-weight: 800;
+}
+
+.badge-klien {
+    background-color: #FFD064;
+    color: #4E575C;
+    padding: 6px 10px;
+}
+
+.title-portofolio {
+    font-weight: 800;
+}
+
+.section-mitra {
+    background-color: #F5F5F9;
+}
+
+.nikmati-keunggulan {
+    background-image: url('../img/nikmati.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 352px;
+    overflow: hidden;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.title-keunggulan {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.title-contact {
+    font-weight: 800;
+    font-size: 47px;
+}
+
+.title-testimoni {
+    font-weight: 800;
+}
+
+.video-testimoni {
+    width: 325px;
+}
+
+.col-testimoni {
+    background: linear-gradient(to left, rgba(245, 245, 249, 0) 1.25%, #F5F5F9 98.17%);
+    ;
+    border-radius: 113.869px 0px 0px 11.3869px;
+}
+
+iframe {
+    height: 175px;
+    border-radius: 10px;
+}
+
+.btn-contact {
+    background-color: #FFD064;
+    color: white;
+    box-shadow: 0px 1px 1px rgba(23, 31, 56, 0.075), inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+
+}
+
+.btn-contact:hover {
+    background-color: #FFD064;
+    color: white;
+}
+.title-otherproduct{
+    font-weight: 700;
+}
+.card-img-top{
+    height: 155px;
+    background-color: #BCD1FF;
+}
+.card-otherproduct{
+    box-shadow: 0px 16.3979px 43.7278px rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    height: 300px;
+}
+.card-body-otherproduct{
+  background-color: #FAFAFA;
+}
+.card-title-otherproduct{
+  font-weight: 700;
+  font-size: 16px;
+}
+.card-text-otherproduct{
+  font-weight: 400;
+  font-size: 12px;
+  color: #374A59;
+}
+.footer{
+    background-color: #4E52BB;
+}
+@media screen and (max-width:834px) {
+    .hero-section {
+        height: 680px;
+    }
+
+    .hero-box-title {
+        margin-top: 150px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 45px;
+    }
+
+    .hero-box-subtitle {
+        width: 100%;
+    }
+
+    .card-fitur {
+        width: 100%;
+    }
+
+    .section-fitur {
+        background-position-y: 120px;
+        background-position-x: -260px;
+        background-size: cover;
+        height: inherit;
+    }
+
+    .title-fitur-ecampuz {
+        font-size: 35px;
+
+    }
+
+    .hero-subtitle {
+        font-size: 30px;
+        font-weight: 500;
+
+    }
+
+    .subtitle-klien {
+        font-size: 20px;
+    }
+
+    .subtitle-portofolio {
+        font-size: 20px;
+    }
+
+    .section-klien {
+        margin-top: 30px;
+        border-radius: 35px 35px 0px 0px;
+    }
+
+    .badge-klien {
+        font-size: 15px;
+    }
+
+    .video-testimoni {
+        width: 100%;
+    }
+
+    iframe {
+        height: 300px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .hero-box-title {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-box-subtitle {
+        width: 100%;
+    }
+
+    .section-fitur {
+        background-position-y: 100px;
+        background-position-x: -855px;
+        background-size: cover;
+        height: inherit;
+    }
+
+    .video-testimoni {
+        width: 100%;
+    }
+
+    .section-klien {
+        margin-top: -40px;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .title-klien {
+        font-size: 30px;
+    }
+
+    .title-portofolio {
+        font-size: 30px;
+    }
+
+    .hero-subtitle {
+        font-size: 25px;
+        font-weight: 500;
+
+    }
+
+    .subtitle-klien {
+        font-size: 18px;
+    }
+
+    .subtitle-portofolio {
+        font-size: 18px;
+    }
+
+    .badge-klien {
+        font-size: 16px;
+    }
+
+    .title-keunggulan {
+        font-size: 40px;
+    }
+
+    .nikmati-keunggulan {
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    iframe {
+        height: 175px;
+    }
+
+    .title-contact {
+        font-weight: 800;
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .hero-box-title {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 35px;
+    }
+
+    .hero-box-subtitle {
+        width: 100%;
+    }
+
+    .hero-subtitle {
+        font-size: 25px;
+        font-weight: 500;
+
+    }
+
+    .card-fitur {
+        width: 100%;
+    }
+
+    .row-card-fitur {
+        margin-top: 65px;
+    }
+
+
+
+    .section-fitur {
+        background-position-y: 100px;
+        background-position-x: -855px;
+        background-size: cover;
+        height: inherit;
+    }
+
+    .title-keunggulan {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .hero-box-title {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-box-subtitle {
+        width: 100%;
+    }
+
+    .hero-subtitle {
+        font-size: 22px;
+        font-weight: 500;
+
+    }
+
+    .row-card-fitur {
+        margin-top: 65px;
+    }
+
+    .title-fitur-ecampuz {
+        font-size: 33px;
+
+    }
+
+    .section-fitur {
+        background-position-x: -955px;
+        background-size: cover;
+        height: inherit;
+    }
+
+    .title-klien {
+        font-size: 25px;
+    }
+
+    .title-portofolio {
+        font-size: 25px;
+    }
+
+    .subtitle-klien {
+        font-size: 16px;
+    }
+
+    .subtitle-portofolio {
+        font-size: 16px;
+    }
+
+    .badge-klien {
+        font-size: 16px;
+    }
+
+    .title-keunggulan {
+        font-size: 30px;
+    }
+}
