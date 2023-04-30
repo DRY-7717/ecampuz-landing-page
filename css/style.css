@@ -137,33 +137,41 @@ iframe {
     background-color: #FFD064;
     color: white;
 }
-.title-otherproduct{
+
+.title-otherproduct {
     font-weight: 700;
 }
-.card-img-top{
+
+.card-img-top {
     height: 155px;
     background-color: #BCD1FF;
 }
-.card-otherproduct{
+
+.card-otherproduct {
     box-shadow: 0px 16.3979px 43.7278px rgba(0, 0, 0, 0.06);
     border-radius: 7px;
     height: 300px;
 }
-.card-body-otherproduct{
-  background-color: #FAFAFA;
+
+.card-body-otherproduct {
+    background-color: #FAFAFA;
 }
-.card-title-otherproduct{
-  font-weight: 700;
-  font-size: 16px;
+
+.card-title-otherproduct {
+    font-weight: 700;
+    font-size: 16px;
 }
-.card-text-otherproduct{
-  font-weight: 400;
-  font-size: 12px;
-  color: #374A59;
+
+.card-text-otherproduct {
+    font-weight: 400;
+    font-size: 12px;
+    color: #374A59;
 }
-.footer{
+
+.footer {
     background-color: #4E52BB;
 }
+
 @media screen and (max-width:834px) {
     .hero-section {
         height: 680px;
@@ -233,8 +241,12 @@ iframe {
 }
 
 @media screen and (max-width:428px) {
+    .hero-section {
+        height: 100vh;
+    }
+
     .hero-box-title {
-        margin-top: 80px;
+        margin-top: 120px;
         margin-bottom: 20px;
         width: 100%;
     }
@@ -309,7 +321,7 @@ iframe {
 
 @media screen and (max-width:390px) {
     .hero-box-title {
-        margin-top: 80px;
+        margin-top: 90px;
         margin-bottom: 20px;
         width: 100%;
     }
@@ -353,7 +365,7 @@ iframe {
 
 @media screen and (max-width:360px) {
     .hero-box-title {
-        margin-top: 80px;
+        margin-top: 100px;
         margin-bottom: 20px;
         width: 100%;
     }
